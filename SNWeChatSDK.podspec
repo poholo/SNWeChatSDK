@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "SNWeChatSDK"
-  s.version = "1.6.4"
+  s.version = "1.7"
   s.license = {
     :type => "Copyright",
     :text => "Copyright (c) 2012 Tencent. All rights reserved.\n"
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
     :git => "https://github.com/iOSBoy/SNWeChatSDK.git",
     :tag => s.version
   }
-  s.platform = :ios, "6.0"
-  s.source_files = "SDK1.6.2/*.h"
-  s.public_header_files = "SDK1.6.2/*.h"
-  s.preserve_paths = "SDK1.6.2/libWeChatSDK.a"
-  s.vendored_libraries = "SDK1.6.2/libWeChatSDK.a"
+  s.platform = :ios, "7.0"
+  s.source_files = "SDK1.7/*.h"
+  s.public_header_files = "SDK1.7/*.h"
+  s.preserve_paths = "SDK1.7/libWeChatSDK.a"
+  s.vendored_libraries = "SDK1.7/libWeChatSDK.a"
   s.requires_arc = false
   s.frameworks = 'SystemConfiguration','CoreTelephony'
   s.libraries = 'z', 'sqlite3.0', 'c++'
