@@ -3,7 +3,7 @@ WeChatSDK  官方同步
 
 # 集成
 
-> pod 'SNWeChatSDK'
+> pod 'SNWeChatSDK', git: 'https://github.com/poholo/SNWeChatSDK'
 
 # Link
 [官方SDK地址](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&token=&lang=zh_CN)
