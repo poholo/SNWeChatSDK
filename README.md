@@ -3,7 +3,7 @@ WeChatSDK  官方同步
 
 # 集成
 
-> pod 'SNWeChatSDK'
+> pod 'SNWeChatSDK', git: 'https://github.com/poholo/SNWeChatSDK'
 
 
 ## update

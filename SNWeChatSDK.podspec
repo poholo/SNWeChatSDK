@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "SNWeChatSDK"
-  s.version = "1.8.2"
+  s.version = "1.8.3"
   s.license = {
     :type => "Copyright",
     :text => "Copyright (c) 2012 Tencent. All rights reserved.\n"
