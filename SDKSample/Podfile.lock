@@ -1,0 +1,21 @@
+PODS:
+  - SNWeChatSDK (1.8.3)
+
+DEPENDENCIES:
+  - SNWeChatSDK (from `https://github.com/poholo/SNWeChatSDK`)
+
+EXTERNAL SOURCES:
+  SNWeChatSDK:
+    :git: https://github.com/poholo/SNWeChatSDK
+
+CHECKOUT OPTIONS:
+  SNWeChatSDK:
+    :commit: 3f59c9bddee9a7527983c87810e199ed3c1974e6
+    :git: https://github.com/poholo/SNWeChatSDK
+
+SPEC CHECKSUMS:
+  SNWeChatSDK: 44422912c3f304a0815ef1f6669f7d8cf7fc11f1
+
+PODFILE CHECKSUM: adba7970b2df18edcdf3874d39d898390aa11cfc
+
+COCOAPODS: 1.5.3

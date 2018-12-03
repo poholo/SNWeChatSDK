@@ -1,0 +1,3 @@
+target 'SDKSample' do
+	pod 'SNWeChatSDK’, git: ‘https://github.com/poholo/SNWeChatSDK'
+end
