@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "WXApiManager.h"
+
+#import <SNWeChatSDK/WXApi.h>
+
 #import "SendMsgToWeChatViewController.h"
+#import "WXApiManager.h"
 
 @implementation AppDelegate
 

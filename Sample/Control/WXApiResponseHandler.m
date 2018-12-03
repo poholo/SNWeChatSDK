@@ -6,8 +6,12 @@
 //
 //
 
-#import "WXApi.h"
+
 #import "WXApiResponseHandler.h"
+
+#import <SNWeChatSDK/WXApi.h>
+
+
 #import "GetMessageFromWXResp+responseWithTextOrMediaMessage.h"
 #import "WXMediaMessage+messageConstruct.h"
 

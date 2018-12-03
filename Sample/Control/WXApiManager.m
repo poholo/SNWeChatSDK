@@ -8,6 +8,8 @@
 
 #import "WXApiManager.h"
 
+#import <SNWeChatSDK/WXApiObject.h>
+
 @implementation WXApiManager
 
 #pragma mark - LifeCycle

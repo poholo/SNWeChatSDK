@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WXApi.h"
+
+#import <SNWeChatSDK/WXApi.h>
+
+@class GetMessageFromWXReq;
+
 
 @protocol WXApiManagerDelegate <NSObject>
 

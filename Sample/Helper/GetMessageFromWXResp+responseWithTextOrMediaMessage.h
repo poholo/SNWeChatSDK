@@ -6,7 +6,9 @@
 //
 //
 
-#import "WXApiObject.h"
+
+#import <SNWeChatSDK/WXApi.h>
+
 
 @interface GetMessageFromWXResp (responseWithTextOrMediaMessage)
 

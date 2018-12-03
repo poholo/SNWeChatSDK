@@ -8,6 +8,8 @@
 
 #import "SendMessageToWXReq+requestWithTextOrMediaMessage.h"
 
+#import <SNWeChatSDK/WXApiObject.h>
+
 @implementation SendMessageToWXReq (requestWithTextOrMediaMessage)
 
 + (SendMessageToWXReq *)requestWithText:(NSString *)text

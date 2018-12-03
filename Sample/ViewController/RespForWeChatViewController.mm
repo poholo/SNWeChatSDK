@@ -7,9 +7,9 @@
 //
 
 #import "RespForWeChatViewController.h"
-#import "WXApiManager.h"
-#import "WXApiResponseHandler.h"
+
 #import "Constant.h"
+#import "WXApiResponseHandler.h"
 
 @implementation RespForWeChatViewController
 

@@ -8,6 +8,9 @@
 
 #import "GetMessageFromWXResp+responseWithTextOrMediaMessage.h"
 
+#import <SNWeChatSDK/WXApiObject.h>
+
+
 @implementation GetMessageFromWXResp (responseWithTextOrMediaMessage)
 
 + (GetMessageFromWXResp *)responseWithText:(NSString *)text

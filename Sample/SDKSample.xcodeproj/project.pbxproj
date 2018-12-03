@@ -9,9 +9,8 @@
 /* Begin PBXBuildFile section */
 		1907B17719F134DB008B56E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1907B17619F134DB008B56E3 /* SystemConfiguration.framework */; };
 		19E46D66179FFC7600693A99 /* iphone4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 19E46D65179FFC7600693A99 /* iphone4.pdf */; };
-		19F9A92519EB905C008C9E1E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F9A92419EB905C008C9E1E /* libsqlite3.0.dylib */; };
-		19F9A92B19EB9093008C9E1E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F9A92A19EB9093008C9E1E /* libz.dylib */; };
 		19FEA95E1BA2F3A4002F7ACC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FEA95D1BA2F3A4002F7ACC /* CoreTelephony.framework */; };
+		2CC48ADF0ABECE0599481FC9 /* libPods-SDKSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F4268BABABC7CC37AB1750 /* libPods-SDKSample.a */; };
 		78D697B01546ECD800B5365E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D697AF1546ECD800B5365E /* Icon.png */; };
 		78D697B31546ECE400B5365E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D697B21546ECE400B5365E /* Icon@2x.png */; };
 		7A19662A1B552EF200931076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1966241B552EF200931076 /* AppDelegate.m */; };
@@ -37,8 +36,6 @@
 		C629F93915CFE4C50000F777 /* res1thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = C629F93815CFE4C50000F777 /* res1thumb.png */; };
 		C6DA29AB15C01537000DCA44 /* res6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6DA29AA15C01537000DCA44 /* res6.gif */; };
 		C6E11F4F15333898009E8803 /* micro_messenger.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E11F4E15333898009E8803 /* micro_messenger.png */; };
-		C9338CB71FAC582400EC240F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9338CB11FAC582400EC240F /* libWeChatSDK.a */; };
-		C9338CB81FAC582400EC240F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9338CB21FAC582400EC240F /* README.txt */; };
 		C99A0DA31E4DB5DE0031339E /* UIAlertView+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A0DA21E4DB5DE0031339E /* UIAlertView+WX.m */; };
 		D5BDCEE81DAB9B21004D4BBE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BDCEE71DAB9B21004D4BBE /* CFNetwork.framework */; };
 		D5E93CC81C21574600614FE1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E93CC71C21574600614FE1 /* Security.framework */; };
@@ -54,11 +51,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012DD3F0D7BF4CE80C25C58C /* Pods-SDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDKSample/Pods-SDKSample.release.xcconfig"; sourceTree = "<group>"; };
 		1907B17619F134DB008B56E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		19E46D65179FFC7600693A99 /* iphone4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iphone4.pdf; sourceTree = "<group>"; };
-		19F9A92419EB905C008C9E1E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		19F9A92A19EB9093008C9E1E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		19FEA95D1BA2F3A4002F7ACC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		44F4268BABABC7CC37AB1750 /* libPods-SDKSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D697AF1546ECD800B5365E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		78D697B21546ECE400B5365E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		7A1966231B552EF200931076 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,11 +91,6 @@
 		C629F93815CFE4C50000F777 /* res1thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res1thumb.png; sourceTree = SOURCE_ROOT; };
 		C6DA29AA15C01537000DCA44 /* res6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = res6.gif; sourceTree = SOURCE_ROOT; };
 		C6E11F4E15333898009E8803 /* micro_messenger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micro_messenger.png; sourceTree = "<group>"; };
-		C9338CB11FAC582400EC240F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		C9338CB21FAC582400EC240F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		C9338CB31FAC582400EC240F /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		C9338CB41FAC582400EC240F /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		C9338CB61FAC582400EC240F /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		C99A0DA11E4DB5DE0031339E /* UIAlertView+WX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+WX.h"; sourceTree = "<group>"; };
 		C99A0DA21E4DB5DE0031339E /* UIAlertView+WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+WX.m"; sourceTree = "<group>"; };
 		D5BDCEE71DAB9B21004D4BBE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -115,6 +107,7 @@
 		F0A8151F1514726A00F72842 /* res1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res1.jpg; sourceTree = SOURCE_ROOT; };
 		F0A815211514726A00F72842 /* res3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res3.jpg; sourceTree = SOURCE_ROOT; };
 		F0A815221514726A00F72842 /* res4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res4.jpg; sourceTree = SOURCE_ROOT; };
+		FE7048B267EB8A86EE906BFF /* Pods-SDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDKSample/Pods-SDKSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,13 +117,11 @@
 			files = (
 				D5BDCEE81DAB9B21004D4BBE /* CFNetwork.framework in Frameworks */,
 				D5E93CC81C21574600614FE1 /* Security.framework in Frameworks */,
-				C9338CB71FAC582400EC240F /* libWeChatSDK.a in Frameworks */,
 				19FEA95E1BA2F3A4002F7ACC /* CoreTelephony.framework in Frameworks */,
 				1907B17719F134DB008B56E3 /* SystemConfiguration.framework in Frameworks */,
-				19F9A92B19EB9093008C9E1E /* libz.dylib in Frameworks */,
-				19F9A92519EB905C008C9E1E /* libsqlite3.0.dylib in Frameworks */,
 				F050299E1505F71800C3E5E5 /* UIKit.framework in Frameworks */,
 				F05029A01505F71800C3E5E5 /* Foundation.framework in Frameworks */,
+				2CC48ADF0ABECE0599481FC9 /* libPods-SDKSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,26 +191,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C9338CB01FAC582400EC240F /* OpenSDK1.8.1_WithoutPay */ = {
+		CC3BC26DA21A4088001082D1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9338CB11FAC582400EC240F /* libWeChatSDK.a */,
-				C9338CB21FAC582400EC240F /* README.txt */,
-				C9338CB31FAC582400EC240F /* WechatAuthSDK.h */,
-				C9338CB41FAC582400EC240F /* WXApi.h */,
-				C9338CB61FAC582400EC240F /* WXApiObject.h */,
+				FE7048B267EB8A86EE906BFF /* Pods-SDKSample.debug.xcconfig */,
+				012DD3F0D7BF4CE80C25C58C /* Pods-SDKSample.release.xcconfig */,
 			);
-			path = OpenSDK1.8.1_WithoutPay;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F050298E1505F71700C3E5E5 = {
 			isa = PBXGroup;
 			children = (
-				C9338CB01FAC582400EC240F /* OpenSDK1.8.1_WithoutPay */,
 				C6E11F4C15333879009E8803 /* Resources */,
-				F05029A31505F71800C3E5E5 /* SDKSample */,
+				F05029A31505F71800C3E5E5 /* Sample */,
 				F050299C1505F71800C3E5E5 /* Frameworks */,
 				F050299A1505F71700C3E5E5 /* Products */,
+				CC3BC26DA21A4088001082D1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,15 +226,14 @@
 				D5E93CC71C21574600614FE1 /* Security.framework */,
 				19FEA95D1BA2F3A4002F7ACC /* CoreTelephony.framework */,
 				1907B17619F134DB008B56E3 /* SystemConfiguration.framework */,
-				19F9A92A19EB9093008C9E1E /* libz.dylib */,
-				19F9A92419EB905C008C9E1E /* libsqlite3.0.dylib */,
 				F050299D1505F71800C3E5E5 /* UIKit.framework */,
 				F050299F1505F71800C3E5E5 /* Foundation.framework */,
+				44F4268BABABC7CC37AB1750 /* libPods-SDKSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F05029A31505F71800C3E5E5 /* SDKSample */ = {
+		F05029A31505F71800C3E5E5 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
 				7A1966221B552EF200931076 /* App */,
@@ -255,7 +242,7 @@
 				7A1966331B552EFD00931076 /* ViewController */,
 				F05029A41505F71800C3E5E5 /* Supporting Files */,
 			);
-			path = SDKSample;
+			path = Sample;
 			sourceTree = "<group>";
 		};
 		F05029A41505F71800C3E5E5 /* Supporting Files */ = {
@@ -291,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F05029BA1505F71800C3E5E5 /* Build configuration list for PBXNativeTarget "SDKSample" */;
 			buildPhases = (
+				25ED0D5BAD302A589E6B5F84 /* [CP] Check Pods Manifest.lock */,
 				F05029951505F71700C3E5E5 /* Sources */,
 				F05029961505F71700C3E5E5 /* Frameworks */,
 				F05029971505F71700C3E5E5 /* Resources */,
@@ -313,7 +301,7 @@
 				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					F05029981505F71700C3E5E5 = {
-						DevelopmentTeam = 8P7343TG54;
+						DevelopmentTeam = 6FNUHS4H7D;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -362,12 +350,32 @@
 				A4ED0CF21719D2D300300C37 /* res5thumb.png in Resources */,
 				A44131DD173A8E2200448082 /* res7.jpg in Resources */,
 				A4425FA81745E9510093C3AE /* ML.pdf in Resources */,
-				C9338CB81FAC582400EC240F /* README.txt in Resources */,
 				19E46D66179FFC7600693A99 /* iphone4.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25ED0D5BAD302A589E6B5F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDKSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F05029951505F71700C3E5E5 /* Sources */ = {
@@ -453,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -488,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -499,60 +507,54 @@
 		};
 		F05029BB1505F71800C3E5E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7048B267EB8A86EE906BFF /* Pods-SDKSample.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Foshan Nationstar Optoelectronics Co., Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8P7343TG54;
+				DEVELOPMENT_TEAM = 6FNUHS4H7D;
 				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDKSample-Prefix.pch";
 				INFOPLIST_FILE = "SDKSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../WeChatSDK/SDKExport",
-					"$(PROJECT_DIR)/SDKExport",
-					"$(PROJECT_DIR)/OpenSDK1.8.1_WithoutPay",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.wc.xin.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymchina.wc.xin.SDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "62a1937d-84eb-4fc3-a04d-cc7b1167098e";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.tencent.wc.xin.SDKSample";
+				PROVISIONING_PROFILE_SPECIFIER = RootDev;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		F05029BC1505F71800C3E5E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012DD3F0D7BF4CE80C25C58C /* Pods-SDKSample.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Foshan Nationstar Optoelectronics Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 8P7343TG54;
+				DEVELOPMENT_TEAM = 6FNUHS4H7D;
 				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDKSample-Prefix.pch";
 				INFOPLIST_FILE = "SDKSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../WeChatSDK/SDKExport",
-					"$(PROJECT_DIR)/SDKExport",
-					"$(PROJECT_DIR)/OpenSDK1.8.1_WithoutPay",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.wc.xin.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymchina.wc.xin.SDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f97d601b-2fe2-4ff5-b892-9096070b6ed6";
-				PROVISIONING_PROFILE_SPECIFIER = SDKSample_Inhouse;
+				PROVISIONING_PROFILE_SPECIFIER = RootDev;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

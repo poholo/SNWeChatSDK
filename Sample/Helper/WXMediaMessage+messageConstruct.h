@@ -6,7 +6,9 @@
 //
 //
 
-#import "WXApiObject.h"
+
+
+#import <SNWeChatSDK/WXApiObject.h>
 
 @interface WXMediaMessage (messageConstruct)
 

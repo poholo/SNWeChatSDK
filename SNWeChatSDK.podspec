@@ -18,10 +18,9 @@ Pod::Spec.new do |s|
   s.platform = :ios, "7.0"
   s.source_files = "SDK/*.h"
   s.public_header_files = "SDK/*.h"
-  s.preserve_paths = "SDK/libWeChatSDK.a"
-  s.vendored_libraries = "SDK/libWeChatSDK.a"
+  s.vendored_libraries = "SDK/*.a"
   s.requires_arc = false
-  s.frameworks = 'SystemConfiguration','CoreTelephony'
+  s.frameworks = 'SystemConfiguration','CoreTelephony', "Security", "CoreTelephony", "CFNetwork", "UIKit"
   s.libraries = 'z', 'sqlite3.0', 'c++'
 
 end

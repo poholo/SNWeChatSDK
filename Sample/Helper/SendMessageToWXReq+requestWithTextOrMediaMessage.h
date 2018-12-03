@@ -6,7 +6,8 @@
 //
 //
 
-#import "WXApiObject.h"
+
+#import <SNWeChatSDK/WXApiObject.h>
 
 @interface SendMessageToWXReq (requestWithTextOrMediaMessage)
 
